@@ -14,6 +14,33 @@ public class User extends ModeloBase{
     public User() {
     }
 
+    public void setIduser(int iduser) {
+        this.iduser = iduser;
+    }
+
+    public void setUsername(String username) {
+        this.username = username;
+    }
+
+    public void setPassword(String password) {
+        this.password = password;
+    }
+
+    public void setRol(Rol rol) {
+        this.rol = rol;
+    }
+
+    public int getIduser() {
+        return iduser;
+    }
+
+    public String getUsername() {
+        return username;
+    }
+
+    public Rol getRol() {
+        return rol;
+    }
 
     @Override
     protected String getNombreTabla() {
