@@ -122,7 +122,7 @@ public class Task extends ModeloBase {
                 rol.setDescription(resultSet.getString("rol"));
                 user.setRol(rol);
                 task.setUser(user);
-
+//juhjhf
                 tasklist.add(task);
             }
 
